@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="origin">
+<link rel="stylesheet" type="text/css" href="css/resto.css">
+<title>Mon premier TP</title>
+
+</head>
+
+
+   <body onLoad="remplirSelRepas(); remplirSelEntree();">
+    <div id="conteneur">
+
+        <div id="header">
+
+           <header>
+             <p id="idtravail">Menu</p>
+             <p id="idtravail2">Travail pratique par Kamba Balanganayi</p>
+             <br>
+             <br>
+             <h1 id="nomresto">Restaurant chez Tchoupie</h1>
+           </header>
+
+        </div>
+
+
+        <div id="main">
+             <div id="boitechoix">
+                 <p id=boitechoixTitle><b>Faites votre choix:</b></p>
+                 <div id ="selectrow1"><!--choix, image et prix de l'entree selectione-->
+                     Entr&eacutee : <select id="selEntree" onChange="infosEntreeChoisi (this)"></select>
+                 </div>
+                 <div id= imgEntree class="img">
+                    <img src="" id="photoEntree" style="width:30; height:30; display:none">
+                </div>
+                <p id="prixEntree"></p>
+
+ 
+                 <div id ="selectrow2"><!--choix, image et prix du repas selectione-->
+                     Repas : <select id="selRepas" onChange="infosRepasChoisi (this)"></select>
+                     </div>
+                     <div id= imgRepas class="img">
+                        <img src="" id="photoRepas" style="width:30; height:30; display:none">
+                    </div>
+                    <p id="prixRepas"></p>
+                    
+                <div id="totaux">
+                    <br>
+                    <button id="btn">Cliquer ici pour calculer la facture</button>
+                    <p id="facture"> </p>
+                </div>
+             </div>
+             
+        </div>
+
+        <div id="footer">
+             <footer id="footer">
+             <p>Bon App&eacutetit!</p>
+             </footer>
+        </div>
+
+  </div>
+
+<script src="Resto.js"></script>
+<script src="jquery-3.5.1.min.js"></script>
+   </body>
+   
+</html>
+

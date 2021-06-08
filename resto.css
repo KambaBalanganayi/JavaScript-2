@@ -1,0 +1,139 @@
+body{
+    background-position: center 85px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color : white;opacity:0.8;;
+    font-family: Arial, Helvetica, sans-serif;
+    
+ }
+ #idtravail{
+     color:whitesmoke;
+     position: absolute;
+     top: 0;
+     left: 0;
+     margin-left: 20px;
+     display: inline-flex;
+ }
+ #idtravail2{
+     color:whitesmoke;
+     position: absolute;
+     top: 0;
+     right: 0;
+     margin-right: 20px;
+     display: inline-flex;
+     
+ }
+ #nomresto{
+     color:whitesmoke;
+     text-align: center;
+     margin-top: 70px;
+     font-size: 30px;
+ }
+ #conteneur{
+    
+    background-position: center 85px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+ 
+    margin:auto;
+    align-content: center;
+ }
+ #selectrow1{
+     justify-content: left;
+     margin-right: 20px;
+     display: inline-block;
+ }
+ #imgEntree{
+     display: inline-block;
+ }
+ #photoEntree{
+     display: inline-block;
+ }
+ #prixEntree{
+     display: inline-block;
+ }
+ #imgRepas{
+     display: inline-block;
+ }
+ #photoRepas{
+     display: inline-block;
+ }
+ #prixRepas{
+     display: inline-block;
+ }
+ #selectrow2{
+     justify-content: right;
+     display: inline-block;
+    
+ }
+ 
+ #main{
+    background-image: url(../images/blackresto.jpg);
+    background-color: aquamarine;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-collapse: collapse;
+    text-align: center;
+  
+   
+    position: static;
+    top: 175px; /* Header Height */
+    bottom: 175px; /* Footer Height */
+    width: 100%;
+ }
+ #boitechoix{
+     background-color: whitesmoke;opacity: 0.8;
+     width: 80%;
+     align-content: center;
+     display: inline-block;
+     margin-top: 180px;
+     margin-bottom: 180px;
+     
+ }
+ #boitechoixTitle{
+     font-size: 25px;
+ }
+ #stotal{
+     display: inline-block;
+ }
+ #taxes{
+     display: inline-block;
+ }
+ #total{
+     display: inline-block;
+ }
+ 
+ #footer{
+     background-color: black;
+     justify-content: center;
+     font-size: 60px;
+     height:175px;
+     text-align:center;
+     margin: 0;
+     
+ }
+ #footer p{
+     margin-top: 0px;
+     padding-top: 45px;
+     color:white;
+ 
+ }
+ 
+    #header{
+       background-color:black; 
+       height:175px;
+     }
+    header h1{
+       color: whitesmoke;
+       font-size:60px;
+       margin:auto;
+       padding-top:10px;
+       padding-left:10px;
+    }
+ 
+ 
