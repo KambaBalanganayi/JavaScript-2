@@ -2,8 +2,8 @@
 
     //---------------TABLEAU DES REPAS------------------
 
-    var tabRepas=[{"nom":"Spaghetti","prix":8.95,"photo":"/spaghetti.jpg"},
-                  {"nom":"Lasagne","prix":9.95,"photo":"/lasagne.jpg"}];
+    var tabRepas=[{"nom":"Spaghetti","prix":8.95,"photo":"spaghetti.jpg"},
+                  {"nom":"Lasagne","prix":9.95,"photo":"lasagne.jpg"}];
     //fonction remplissage des repas
     function remplirSelRepas(){
         var selRepas=document.querySelector('#selRepas');
@@ -24,8 +24,8 @@
 
     //--------------TABLEAU DES ENTREES-------------------------
 
-    var tabEntree=[{"nom":"Salade","prix":5.45,"photo":"/salade.jpg"},
-                  {"nom":"Escargot","prix":4.95,"photo":"/escargot.jpg"}];
+    var tabEntree=[{"nom":"Salade","prix":5.45,"photo":"salade.jpg"},
+                  {"nom":"Escargot","prix":4.95,"photo":"escargot.jpg"}];
     //fonction remplissage des entrees
     function remplirSelEntree(){
         var selEntree=document.querySelector('#selEntree');
