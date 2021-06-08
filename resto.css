@@ -6,6 +6,20 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     
  }
+ #main{
+    background-image: url(/blackresto.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-collapse: collapse;
+    text-align: center;
+  
+   
+    position: static;
+    top: 175px; /* Header Height */
+    bottom: 175px; /* Footer Height */
+    width: 100%;
+ }
  #idtravail{
      color:whitesmoke;
      position: absolute;
@@ -69,21 +83,6 @@ body{
      justify-content: right;
      display: inline-block;
     
- }
- 
- #main{
-    background-image: url(/blackresto.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-collapse: collapse;
-    text-align: center;
-  
-   
-    position: static;
-    top: 175px; /* Header Height */
-    bottom: 175px; /* Footer Height */
-    width: 100%;
  }
  #boitechoix{
      background-color: whitesmoke;opacity: 0.8;
