@@ -7,7 +7,7 @@ body{
     
  }
  #main{
-    background-image: url(blackresto.jpg);
+    background-image: url("blackresto.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
