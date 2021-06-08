@@ -72,7 +72,7 @@ body{
  }
  
  #main{
-    background-image: blackresto.jpg;
+    background-image: url(./blackresto.jpg);
     background-color: aquamarine;
     background-size: cover;
     background-position: center;
