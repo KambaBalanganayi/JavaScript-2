@@ -44,7 +44,8 @@
     }       
 
     //bouton pour les calculs
-    $("button").on('click', function(e) {
+    $("#button").on("click", function(e) {
+        e.preventDefault();
         var prixEntree = parseFloat($("#prixEntree").html()); 
         var prixRepas = parseFloat($("#prixRepas").html()); 
         var totalAvantTax = prixEntree + prixRepas
