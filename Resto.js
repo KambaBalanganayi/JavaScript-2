@@ -44,7 +44,7 @@
     }       
 
     //bouton pour les calculs
-    $("#button").on("click", function(e) {
+    $("#btn").on("click", function(e) {
         e.preventDefault();
         var prixEntree = parseFloat($("#prixEntree").html()); 
         var prixRepas = parseFloat($("#prixRepas").html()); 
